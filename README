@@ -25,6 +25,15 @@ INSTALL
 	Be aware that this command will overwrite the original files!  So,
 	make sure you have made a backup.
 
+	Also, note that after upgrading git package, these files will be
+	overwritten.  In case of Zeppe-Lin, you can set pkgadd(8) to never
+	upgrade these files.  Edit /etc/pkgadd.conf and add the following
+	lines:
+
+		UPGRADE  ^usr/share/gitweb/static/git-favicon.png$  NO
+		UPGRADE  ^usr/share/gitweb/static/git-logo.png$     NO
+		UPGRADE  ^usr/share/gitweb/static/gitweb.css$       NO
+
 LICENSE
 
 	Same as the gitweb-theme upstream, MIT license.
