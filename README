@@ -1,5 +1,7 @@
 OVERVIEW
 
+	This directory contains gitweb-theme, an alternative theme for gitweb.
+
 	This theme is basically a fork of:
 
 		https://github.com/kogakure/gitweb-theme
@@ -8,7 +10,8 @@ OVERVIEW
 
 		http://git.linaro.org/infrastructure/gitweb-linaro-theme.git
 
-	What has changed are colors, fonts, and the logos.
+	What has changed are colors, fonts, and the logos.  The following
+	files have been removed: README.markdown, setup.
 
 LICENSE
 
