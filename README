@@ -15,23 +15,15 @@ OVERVIEW
 
 INSTALL
 
-	The installation of this stylesheet is very easy:
+	The installation of this stylesheet is very easy.  Just copy the
+	following files to the directory where gitweb static files is located
+	(usually /usr/share/gitweb):
 
-		make install
+		sudo cp -f git-favicon.png git-logo.png gitweb.css \
+			/usr/share/gitweb/static/
 
-	This command will overwrite the following files in /usr/share/gitweb:
-
-		* static/git-favicon.png
-		* static/git-logo.png
-		* static/gitweb.js
-
-	So, make sure you have made backup!
-
-	If /usr/share/gitweb is not the directory where gitweb is located,
-	then pass the directory to the make(1) with the GITWEBDIR option.
-	Example:
-
-		make GITWEBDIR=/root/usr/share/gitweb install
+	Be aware that this command will overwrite the original files!  So,
+	make sure you have made a backup.
 
 LICENSE
 
