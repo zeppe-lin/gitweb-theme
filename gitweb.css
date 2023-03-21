@@ -60,7 +60,7 @@ body {
 
 /* Monospaced Fonts */
 .sha1, .mode, .diff_tree .list, .pre, .diff, .patchset, .marked {
-  font-family: 'Ubuntu Mono', 'Consolas','Bitstream Vera Sans Mono',monospace;
+  font-family: 'Iosevka Nerd Font', 'Ubuntu Mono', 'Consolas', 'Bitstream Vera Sans Mono', monospace;
 }
 
 a:link, a:visited {
