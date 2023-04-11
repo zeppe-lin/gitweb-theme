@@ -64,7 +64,7 @@ body {
 }
 
 a:link, a:visited {
-  color: #6C9D10;
+  color: #55af66;
   text-decoration: none;
   font-weight: 500;
 }
@@ -121,7 +121,7 @@ td, th {
 }
 
 .page_header a:link, .page_header a:visited {
-  color: #6C9D10;
+  color: #55af66;
   text-decoration: none;
   padding: 3px;
   font-weight: bold;
