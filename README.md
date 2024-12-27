@@ -19,7 +19,6 @@ INSTALL
 The installation of this stylesheet is very easy.  Just copy the
 following files to the directory where gitweb static files is located
 (usually `/usr/share/gitweb`):
-
 ```sh
 sudo cp -f git-favicon.png git-logo.png gitweb.css /usr/share/gitweb/static/
 ```
@@ -31,7 +30,6 @@ Also, note that after upgrading git package, these files will be
 overwritten.  In case of Zeppe-Lin, you can set pkgadd(8) to never
 upgrade these files.  Edit `/etc/pkgadd.conf` and add the following
 lines:
-
 ```
 UPGRADE  ^usr/share/gitweb/static/git-favicon.png$  NO
 UPGRADE  ^usr/share/gitweb/static/git-logo.png$     NO
