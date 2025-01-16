@@ -1,7 +1,8 @@
 OVERVIEW
 ========
 
-This directory contains gitweb-theme, an alternative theme for gitweb.
+This repository contains gitweb-theme, an alternative theme for
+gitweb.
 
 This theme is basically a fork of [kogakure theme][1] with CSS
 modifications of [linaro theme][2].
